@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- header------------------------------------------------------------->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="images/zoro.png">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<!----------------------------------------------------------------------->
+
+<body>
+    <div class="main">
+        <div class="card">
+            <!--Search Box------------------------------------------------------------->
+            <div class="search">
+                <input type="text" placeholder="Enter city name " spellcheck="false" id="weatherText">
+                <button> <img src="images/search.png"></button>
+            </div>
+            <!----------------------------------------------------------------------->
+            <!--Error msg------------------------------------------------------------->
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+            <!--wheather------------------------------------------------------------->
+            <div class="weather">
+                <img src="images/rain.png" class="weather-icon">
+                <h3 class="climate">----</h3>
+                <h1 class="temp">--°C</h1>
+                <h2 class="city">City</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png">
+                        <div>
+                            <p class="humidity">--%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <!--------------------------->
+                    <div class="col">
+                        <img src="images/wind.png">
+                        <div>
+                            <p class="wind">--km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------------------------------------->
+        </div>
+    </div>
+    <!--Script-------------------------------------------------------------------->
+    <script src="script.js"></script>
+    <!----------------------------------------------------------------------->
+
+</body>
+
+</html>
