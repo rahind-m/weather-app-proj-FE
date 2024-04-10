@@ -12,7 +12,7 @@ body {
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
-  margin: -130px 470px;
+  margin: -140px 470px;
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
@@ -102,7 +102,7 @@ body {
   width: 90%;
   max-width: 400px;
   color: #fff;
-  margin: 15px 10px;
+  margin: 5px 10px;
   padding: 40px 35px;
   text-align: left;
 }
